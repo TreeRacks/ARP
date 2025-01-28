@@ -1,3 +1,3 @@
 # ARP
 
-Project main repository for ARP (Automatic Robot Painter). 
+project main repository for ARP (Automatic Robot Painter). 
