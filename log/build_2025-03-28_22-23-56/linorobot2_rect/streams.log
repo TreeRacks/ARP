@@ -1,0 +1,21 @@
+[3.002s] Invoking command in '/home/pi/linorobot2_ws/src/linorobot2/linorobot2_rect': PYTHONPATH=/home/pi/linorobot2_ws/build/linorobot2_rect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/linorobot2_rect build --build-base /home/pi/linorobot2_ws/build/linorobot2_rect/build install --record /home/pi/linorobot2_ws/build/linorobot2_rect/install.log --single-version-externally-managed install_data
+[4.002s] running egg_info
+[4.004s] writing ../../../build/linorobot2_rect/linorobot2_rect.egg-info/PKG-INFO
+[4.005s] writing dependency_links to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/dependency_links.txt
+[4.006s] writing entry points to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/entry_points.txt
+[4.007s] writing requirements to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/requires.txt
+[4.008s] writing top-level names to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/top_level.txt
+[4.016s] reading manifest file '../../../build/linorobot2_rect/linorobot2_rect.egg-info/SOURCES.txt'
+[4.019s] writing manifest file '../../../build/linorobot2_rect/linorobot2_rect.egg-info/SOURCES.txt'
+[4.020s] running build
+[4.021s] running build_py
+[4.022s] running install
+[4.023s] running install_lib
+[4.028s] running install_data
+[4.029s] running install_egg_info
+[4.036s] removing '/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect-0.0.0-py3.10.egg-info' (and everything under it)
+[4.038s] Copying ../../../build/linorobot2_rect/linorobot2_rect.egg-info to /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect-0.0.0-py3.10.egg-info
+[4.044s] running install_scripts
+[4.124s] Installing rectangle_motion script to /home/pi/linorobot2_ws/install/linorobot2_rect/lib/linorobot2_rect
+[4.126s] writing list of installed files to '/home/pi/linorobot2_ws/build/linorobot2_rect/install.log'
+[4.244s] Invoked command in '/home/pi/linorobot2_ws/src/linorobot2/linorobot2_rect' returned '0': PYTHONPATH=/home/pi/linorobot2_ws/build/linorobot2_rect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/linorobot2_rect build --build-base /home/pi/linorobot2_ws/build/linorobot2_rect/build install --record /home/pi/linorobot2_ws/build/linorobot2_rect/install.log --single-version-externally-managed install_data

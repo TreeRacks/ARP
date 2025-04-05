@@ -1,0 +1,69 @@
+[0.122s] Invoking command in '/home/pi/linorobot2_ws/src/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/linorobot2_ws/src/linorobot2/linorobot2_description -DCMAKE_INSTALL_PREFIX=/home/pi/linorobot2_ws/src/install/linorobot2_description
+[2.430s] -- The C compiler identification is GNU 11.4.0
+[3.277s] -- The CXX compiler identification is GNU 11.4.0
+[3.313s] -- Detecting C compiler ABI info
+[3.773s] -- Detecting C compiler ABI info - done
+[3.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.804s] -- Detecting C compile features
+[3.809s] -- Detecting C compile features - done
+[3.823s] -- Detecting CXX compiler ABI info
+[4.342s] -- Detecting CXX compiler ABI info - done
+[4.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.371s] -- Detecting CXX compile features
+[4.372s] -- Detecting CXX compile features - done
+[4.409s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.606s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[7.733s] -- Configuring done
+[7.757s] -- Generating done
+[7.766s] -- Build files have been written to: /home/pi/linorobot2_ws/src/build/linorobot2_description
+[7.843s] Invoked command in '/home/pi/linorobot2_ws/src/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/pi/linorobot2_ws/src/linorobot2/linorobot2_description -DCMAKE_INSTALL_PREFIX=/home/pi/linorobot2_ws/src/install/linorobot2_description
+[7.845s] Invoking command in '/home/pi/linorobot2_ws/src/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/src/build/linorobot2_description -- -j4 -l4
+[9.269s] Invoked command in '/home/pi/linorobot2_ws/src/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/src/build/linorobot2_description -- -j4 -l4
+[9.279s] Invoking command in '/home/pi/linorobot2_ws/src/build/linorobot2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/src/build/linorobot2_description
+[9.311s] -- Install configuration: ""
+[9.313s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/launch
+[9.315s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/launch/description.launch.py
+[9.317s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf
+[9.321s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mech
+[9.322s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mech/base.urdf.xacro
+[9.323s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mech/caster_wheel.urdf.xacro
+[9.325s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mech/wheel.urdf.xacro
+[9.327s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mech/mecanum_wheel.urdf.xacro
+[9.327s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/2wd_properties.urdf.xacro
+[9.328s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/mecanum_properties.urdf.xacro
+[9.329s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/4wd_properties.urdf.xacro
+[9.330s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors
+[9.331s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors/imu.urdf.xacro
+[9.332s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors/depth_sensor.urdf.xacro
+[9.334s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors/sonar.urdf.xacro
+[9.335s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors/laser.urdf.xacro
+[9.336s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/sensors/generic_laser.urdf.xacro
+[9.338s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/controllers
+[9.338s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/controllers/skid_steer.urdf.xacro
+[9.340s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/controllers/diff_drive.urdf.xacro
+[9.341s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/controllers/omni_drive.urdf.xacro
+[9.342s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots
+[9.345s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots/4wd.urdf.xacro
+[9.346s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots/turtlebot.urdf.xacro
+[9.360s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots/2wd.urdf.xacro
+[9.361s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots/vattenkar.urdf.xacro
+[9.362s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/urdf/robots/mecanum.urdf.xacro
+[9.367s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/rviz
+[9.368s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/rviz/description.rviz
+[9.368s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/ament_index/resource_index/package_run_dependencies/linorobot2_description
+[9.369s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/ament_index/resource_index/parent_prefix_path/linorobot2_description
+[9.370s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.sh
+[9.371s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/environment/ament_prefix_path.dsv
+[9.371s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/environment/path.sh
+[9.377s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/environment/path.dsv
+[9.378s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/local_setup.bash
+[9.378s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/local_setup.sh
+[9.379s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/local_setup.zsh
+[9.380s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/local_setup.dsv
+[9.382s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/package.dsv
+[9.382s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/ament_index/resource_index/packages/linorobot2_description
+[9.398s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig.cmake
+[9.401s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/cmake/linorobot2_descriptionConfig-version.cmake
+[9.402s] -- Installing: /home/pi/linorobot2_ws/src/install/linorobot2_description/share/linorobot2_description/package.xml
+[9.403s] Invoked command in '/home/pi/linorobot2_ws/src/build/linorobot2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/linorobot2_ws/install/linorobot2_control:/home/pi/uros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/src/build/linorobot2_description

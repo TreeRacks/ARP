@@ -1,0 +1,27 @@
+[4.346s] Invoking command in '/home/pi/linorobot2_ws/src/linorobot2/linorobot2_control': PYTHONPATH=/home/pi/linorobot2_ws/build/linorobot2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/linorobot2_control build --build-base /home/pi/linorobot2_ws/build/linorobot2_control/build install --record /home/pi/linorobot2_ws/build/linorobot2_control/install.log --single-version-externally-managed install_data
+[5.841s] running egg_info
+[5.846s] writing ../../../build/linorobot2_control/linorobot2_control.egg-info/PKG-INFO
+[5.847s] writing dependency_links to ../../../build/linorobot2_control/linorobot2_control.egg-info/dependency_links.txt
+[5.848s] writing entry points to ../../../build/linorobot2_control/linorobot2_control.egg-info/entry_points.txt
+[5.849s] writing requirements to ../../../build/linorobot2_control/linorobot2_control.egg-info/requires.txt
+[5.850s] writing top-level names to ../../../build/linorobot2_control/linorobot2_control.egg-info/top_level.txt
+[5.860s] reading manifest file '../../../build/linorobot2_control/linorobot2_control.egg-info/SOURCES.txt'
+[5.864s] writing manifest file '../../../build/linorobot2_control/linorobot2_control.egg-info/SOURCES.txt'
+[5.866s] running build
+[5.867s] running build_py
+[5.869s] copying linorobot2_control/rectangle_motion.py -> /home/pi/linorobot2_ws/build/linorobot2_control/build/lib/linorobot2_control
+[5.871s] copying linorobot2_control/rectanglenav.py -> /home/pi/linorobot2_ws/build/linorobot2_control/build/lib/linorobot2_control
+[5.873s] running install
+[5.874s] running install_lib
+[5.880s] copying /home/pi/linorobot2_ws/build/linorobot2_control/build/lib/linorobot2_control/rectangle_motion.py -> /home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control
+[5.880s] copying /home/pi/linorobot2_ws/build/linorobot2_control/build/lib/linorobot2_control/rectanglenav.py -> /home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control
+[5.883s] byte-compiling /home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control/rectangle_motion.py to rectangle_motion.cpython-310.pyc
+[5.887s] byte-compiling /home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control/rectanglenav.py to rectanglenav.cpython-310.pyc
+[5.892s] running install_data
+[5.893s] running install_egg_info
+[5.903s] removing '/home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.905s] Copying ../../../build/linorobot2_control/linorobot2_control.egg-info to /home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages/linorobot2_control-0.0.0-py3.10.egg-info
+[5.914s] running install_scripts
+[6.022s] Installing rectangle_motion script to /home/pi/linorobot2_ws/install/linorobot2_control/bin
+[6.024s] writing list of installed files to '/home/pi/linorobot2_ws/build/linorobot2_control/install.log'
+[6.173s] Invoked command in '/home/pi/linorobot2_ws/src/linorobot2/linorobot2_control' returned '0': PYTHONPATH=/home/pi/linorobot2_ws/build/linorobot2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/linorobot2_ws/install/linorobot2_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/linorobot2_control build --build-base /home/pi/linorobot2_ws/build/linorobot2_control/build install --record /home/pi/linorobot2_ws/build/linorobot2_control/install.log --single-version-externally-managed install_data

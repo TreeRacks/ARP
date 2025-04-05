@@ -1,0 +1,54 @@
+[0.084s] Invoking command in '/home/pi/linorobot2_ws/build/linorobot2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/linorobot2_ws/src/linorobot2/linorobot2_bringup -DCMAKE_INSTALL_PREFIX=/home/pi/linorobot2_ws/install/linorobot2_bringup
+[0.434s] -- The C compiler identification is GNU 11.4.0
+[0.758s] -- The CXX compiler identification is GNU 11.4.0
+[0.790s] -- Detecting C compiler ABI info
+[1.183s] -- Detecting C compiler ABI info - done
+[1.211s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.212s] -- Detecting C compile features
+[1.213s] -- Detecting C compile features - done
+[1.224s] -- Detecting CXX compiler ABI info
+[1.686s] -- Detecting CXX compiler ABI info - done
+[1.712s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.713s] -- Detecting CXX compile features
+[1.716s] -- Detecting CXX compile features - done
+[1.746s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.791s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.973s] -- Configuring done
+[3.993s] -- Generating done
+[4.002s] -- Build files have been written to: /home/pi/linorobot2_ws/build/linorobot2_bringup
+[4.031s] Invoked command in '/home/pi/linorobot2_ws/build/linorobot2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pi/linorobot2_ws/src/linorobot2/linorobot2_bringup -DCMAKE_INSTALL_PREFIX=/home/pi/linorobot2_ws/install/linorobot2_bringup
+[4.033s] Invoking command in '/home/pi/linorobot2_ws/build/linorobot2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/build/linorobot2_bringup -- -j4 -l4
+[4.202s] Invoked command in '/home/pi/linorobot2_ws/build/linorobot2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/build/linorobot2_bringup -- -j4 -l4
+[4.251s] Invoking command in '/home/pi/linorobot2_ws/build/linorobot2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/build/linorobot2_bringup
+[4.282s] -- Install configuration: ""
+[4.282s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch
+[4.284s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/extra.launch.py
+[4.286s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/bringup.launch.py
+[4.289s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/depth.launch.py
+[4.291s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/joy_teleop.launch.py
+[4.295s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/lasers.launch.py
+[4.298s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/sensors.launch.py
+[4.300s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/custom_robot.launch.py
+[4.308s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/launch/default_robot.launch.py
+[4.318s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config
+[4.321s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/box_laser_filter.yaml
+[4.332s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/zed_common.yaml
+[4.349s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/joy.yaml
+[4.354s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/laser_filter.yaml
+[4.356s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/config/fake_laser.yaml
+[4.360s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/package_run_dependencies/linorobot2_bringup
+[4.368s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/parent_prefix_path/linorobot2_bringup
+[4.369s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/ament_prefix_path.sh
+[4.370s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/ament_prefix_path.dsv
+[4.372s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/path.sh
+[4.373s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/environment/path.dsv
+[4.373s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.bash
+[4.374s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.sh
+[4.375s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.zsh
+[4.375s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/local_setup.dsv
+[4.376s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.dsv
+[4.376s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/ament_index/resource_index/packages/linorobot2_bringup
+[4.377s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/cmake/linorobot2_bringupConfig.cmake
+[4.379s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/cmake/linorobot2_bringupConfig-version.cmake
+[4.381s] -- Installing: /home/pi/linorobot2_ws/install/linorobot2_bringup/share/linorobot2_bringup/package.xml
+[4.558s] Invoked command in '/home/pi/linorobot2_ws/build/linorobot2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/build/linorobot2_bringup

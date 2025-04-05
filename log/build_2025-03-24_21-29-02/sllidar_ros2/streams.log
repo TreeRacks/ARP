@@ -1,0 +1,549 @@
+[0.050s] Invoking command in '/home/pi/linorobot2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/build/sllidar_ros2 -- -j4 -l4
+[0.163s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.711s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.865s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.110s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.116s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.898s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.077s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.182s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.504s] -- Configuring done
+[2.581s] -- Generating done
+[2.604s] -- Build files have been written to: /home/pi/linorobot2_ws/build/sllidar_ros2
+[2.713s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[2.724s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[2.799s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[2.885s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[2.889s] [ 15%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[2.894s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[5.193s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[5.195s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[5.196s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[5.198s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[5.199s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.201s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[5.202s]       |                [01;35m[K^[m[K
+[5.206s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[5.208s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[5.209s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[5.211s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[5.212s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.222s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[5.223s]       |                    [01;35m[K^[m[K
+[5.564s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[5.565s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[5.566s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[5.567s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[5.567s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.568s]   733 |             assert([01;35m[Kans == len[m[K);
+[5.569s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[5.848s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[5.849s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.850s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[5.851s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[5.853s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[5.854s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.854s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[5.855s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[5.856s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[5.857s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.857s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[5.858s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[5.859s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[5.866s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.867s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[5.868s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[5.868s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[5.869s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[5.870s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[5.871s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.441s] [ 25%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[6.518s] [ 30%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[9.170s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[9.171s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[9.172s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[9.172s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[9.174s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[9.174s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.175s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[9.176s]       |                [01;35m[K^[m[K
+[9.176s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[9.177s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[9.178s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[9.178s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[9.179s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[9.180s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.181s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[9.181s]       |                    [01;35m[K^[m[K
+[9.203s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[10.104s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[10.106s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[10.107s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.108s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[10.108s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[10.109s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.110s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[10.110s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[10.111s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.112s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[10.112s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[10.113s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.113s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[10.114s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[10.115s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[10.115s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.116s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[10.116s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[10.117s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.117s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[10.118s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[10.119s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.120s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[10.120s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[10.134s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.134s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[10.135s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[11.304s] [ 40%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[11.771s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[11.771s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[11.772s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[11.773s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.773s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[11.774s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.775s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[11.775s]       |                [01;35m[K^[m[K
+[11.777s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[11.777s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[11.778s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[11.778s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[11.779s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[11.779s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.780s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[11.781s]       |                    [01;35m[K^[m[K
+[12.718s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[12.720s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[12.721s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.722s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[12.723s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[12.723s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.724s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[12.725s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[12.725s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.726s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[12.727s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[12.728s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.728s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[12.741s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[12.742s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[12.743s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.743s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[12.744s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[12.745s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.745s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[12.746s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[12.747s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.748s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[12.748s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[12.749s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.750s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[12.750s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[12.770s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[12.771s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[12.771s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[12.772s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.657s] [ 45%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[13.847s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[13.848s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[13.849s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[13.849s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[13.850s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[13.851s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.852s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[13.852s]       |                [01;35m[K^[m[K
+[13.853s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[13.854s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[13.854s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[13.855s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[13.855s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[13.856s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.856s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[13.857s]       |                    [01;35m[K^[m[K
+[14.916s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[14.918s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[14.920s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.921s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[14.922s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[14.923s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.924s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[14.925s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[14.926s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.927s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[14.927s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[14.928s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.929s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[14.930s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[14.931s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[14.932s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.933s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[14.934s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[14.935s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.936s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[14.949s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[14.951s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.952s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[14.953s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[14.954s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[14.955s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[14.956s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[15.691s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[16.344s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[16.346s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[16.347s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[16.348s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[16.348s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[16.349s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.350s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.350s]       |                [01;35m[K^[m[K
+[16.351s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[16.352s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[16.352s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[16.353s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[16.361s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[16.362s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.363s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.363s]       |                    [01;35m[K^[m[K
+[16.755s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[16.757s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.758s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[16.760s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[16.761s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.762s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[16.763s]       |                [01;35m[K^[m[K
+[16.767s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.768s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[16.772s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[16.773s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.778s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.778s]       |                    [01;35m[K^[m[K
+[17.340s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[17.341s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[17.342s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.342s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[17.343s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[17.344s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.344s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[17.345s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[17.346s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.347s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[17.347s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[17.348s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.349s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[17.362s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[17.362s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[17.363s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.364s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[17.364s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[17.365s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.366s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[17.367s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[17.368s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.368s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[17.369s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[17.370s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[17.371s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[17.371s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[17.989s] [ 55%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[18.123s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[18.123s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[18.124s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[18.125s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[18.126s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.126s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[18.127s]       |                [01;35m[K^[m[K
+[18.127s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[18.128s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[18.128s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[18.129s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[18.130s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.130s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[18.131s]       |                    [01;35m[K^[m[K
+[18.371s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[18.372s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[18.372s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[18.373s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[18.374s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.375s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[18.376s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.376s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[18.377s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[18.768s] [ 60%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[20.368s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.369s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[20.370s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[20.371s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.372s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.373s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[20.374s]       |                [01;35m[K^[m[K
+[20.375s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.376s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[20.376s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[20.377s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.378s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.378s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.379s]       |                    [01;35m[K^[m[K
+[21.208s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[21.209s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.211s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[21.212s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[21.213s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[21.213s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.214s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[21.215s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[21.226s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[21.227s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.228s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[21.229s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[21.230s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.231s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[21.232s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[21.268s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.269s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[21.270s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[21.272s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[21.273s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.274s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.275s]       |                [01;35m[K^[m[K
+[21.276s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.276s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[21.277s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[21.278s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[21.279s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.280s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.289s]       |                    [01;35m[K^[m[K
+[21.801s] [ 65%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[21.872s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[21.873s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[21.873s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.874s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[21.874s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[21.931s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[21.931s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[21.932s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[21.933s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.935s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.935s]       |                [01;35m[K^[m[K
+[21.936s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[21.937s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[21.937s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.938s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.939s]       |                    [01;35m[K^[m[K
+[22.039s] [ 70%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[22.658s] [ 75%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[24.732s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[24.733s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[24.734s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[24.735s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[24.736s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.737s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[24.738s]       |                [01;35m[K^[m[K
+[24.739s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[24.740s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[24.741s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[24.742s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[24.742s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.743s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[24.744s]       |                    [01;35m[K^[m[K
+[25.523s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[25.524s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[25.525s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[25.526s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[25.527s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.528s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[25.529s]       |                [01;35m[K^[m[K
+[25.530s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[25.530s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[25.531s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[25.532s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[25.532s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.533s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[25.534s]       |                    [01;35m[K^[m[K
+[26.149s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[26.150s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[26.151s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.152s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[26.152s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[26.154s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.155s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[26.156s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[26.156s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.157s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[26.158s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[26.159s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.160s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[26.161s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[26.162s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[26.162s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.163s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[26.164s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[26.164s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.177s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[26.178s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[26.179s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.180s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[26.181s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[26.182s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.190s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[26.191s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[26.199s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[26.199s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[26.200s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.201s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[26.202s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[26.315s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[26.316s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.317s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[26.317s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.335s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[26.336s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.337s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[26.338s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[26.349s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[26.350s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.350s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[26.351s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.359s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[26.360s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.361s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[26.362s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[26.375s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[26.376s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.377s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[26.378s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[26.384s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[26.385s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.385s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[26.386s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[26.624s] /home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[26.625s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[26.626s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.626s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[26.627s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[26.660s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[26.660s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[26.661s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.662s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[26.663s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[27.203s] [ 80%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[27.213s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[27.214s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[27.215s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[27.215s]       |                 [01;35m[K^~~~~~~[m[K
+[27.216s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[27.217s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[27.219s]       |                 [01;35m[K^~~~~~~[m[K
+[27.220s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[27.221s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[27.231s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[28.927s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[28.928s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[28.928s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[28.929s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.930s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[28.931s]       |                [01;35m[K^[m[K
+[28.932s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[28.932s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[28.933s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.934s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[28.934s]       |                    [01;35m[K^[m[K
+[29.109s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[29.313s] [ 90%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[30.867s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[30.867s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.868s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[30.868s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.870s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[30.870s]       |                [01;35m[K^[m[K
+[30.871s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[30.871s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[30.872s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[30.873s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[30.873s]       |                    [01;35m[K^[m[K
+[30.893s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[30.894s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[30.895s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[30.896s]       |                        [01;35m[K~~~~~^~~~[m[K
+[31.068s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[31.069s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.069s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[31.070s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.071s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[31.072s]       |                [01;35m[K^[m[K
+[31.072s] In file included from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[31.073s]                  from [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[31.074s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.074s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[31.075s]       |                    [01;35m[K^[m[K
+[31.097s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[31.098s] [01m[K/home/pi/linorobot2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[31.098s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[31.099s]       |                        [01;35m[K~~~~~^~~~[m[K
+[31.972s] [ 95%] [32m[1mLinking CXX executable sllidar_node[0m
+[33.393s] [ 95%] Built target sllidar_node
+[43.158s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[45.003s] [100%] Built target sllidar_client
+[45.044s] Invoked command in '/home/pi/linorobot2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pi/linorobot2_ws/build/sllidar_ros2 -- -j4 -l4
+[45.088s] Invoking command in '/home/pi/linorobot2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/build/sllidar_ros2
+[45.116s] -- Install configuration: ""
+[45.116s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[45.117s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[45.118s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[45.119s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[45.120s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[45.121s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[45.122s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[45.123s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[45.124s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[45.125s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[45.126s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[45.127s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[45.128s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[45.129s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[45.130s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[45.131s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[45.132s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[45.133s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[45.134s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[45.135s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[45.136s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[45.137s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[45.138s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[45.139s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[45.140s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[45.141s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[45.141s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[45.143s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[45.159s] -- Set runtime path of "/home/pi/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[45.160s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[45.187s] -- Set runtime path of "/home/pi/linorobot2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""
+[45.187s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[45.188s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[45.188s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[45.189s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[45.190s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[45.190s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[45.191s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[45.192s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[45.192s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[45.193s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[45.194s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[45.195s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[45.195s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.196s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.196s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[45.197s] -- Up-to-date: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[45.197s] -- Installing: /home/pi/linorobot2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[45.203s] Invoked command in '/home/pi/linorobot2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pi/linorobot2_ws/build/sllidar_ros2

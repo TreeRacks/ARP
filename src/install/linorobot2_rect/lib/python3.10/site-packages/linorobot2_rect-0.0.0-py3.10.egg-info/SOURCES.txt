@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/linorobot2_rect/linorobot2_rect.egg-info/PKG-INFO
+../../build/linorobot2_rect/linorobot2_rect.egg-info/SOURCES.txt
+../../build/linorobot2_rect/linorobot2_rect.egg-info/dependency_links.txt
+../../build/linorobot2_rect/linorobot2_rect.egg-info/entry_points.txt
+../../build/linorobot2_rect/linorobot2_rect.egg-info/requires.txt
+../../build/linorobot2_rect/linorobot2_rect.egg-info/top_level.txt
+../../build/linorobot2_rect/linorobot2_rect.egg-info/zip-safe
+linorobot2_rect/__init__.py
+linorobot2_rect/rectangle_motion.py
+resource/linorobot2_rect
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

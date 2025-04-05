@@ -1,0 +1,25 @@
+running egg_info
+writing ../../../build/linorobot2_rect/linorobot2_rect.egg-info/PKG-INFO
+writing dependency_links to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/dependency_links.txt
+writing entry points to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/entry_points.txt
+writing requirements to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/requires.txt
+writing top-level names to ../../../build/linorobot2_rect/linorobot2_rect.egg-info/top_level.txt
+reading manifest file '../../../build/linorobot2_rect/linorobot2_rect.egg-info/SOURCES.txt'
+writing manifest file '../../../build/linorobot2_rect/linorobot2_rect.egg-info/SOURCES.txt'
+running build
+running build_py
+copying linorobot2_rect/rectangle_motion.py -> /home/pi/linorobot2_ws/build/linorobot2_rect/build/lib/linorobot2_rect
+copying linorobot2_rect/test.py -> /home/pi/linorobot2_ws/build/linorobot2_rect/build/lib/linorobot2_rect
+running install
+running install_lib
+copying /home/pi/linorobot2_ws/build/linorobot2_rect/build/lib/linorobot2_rect/rectangle_motion.py -> /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect
+copying /home/pi/linorobot2_ws/build/linorobot2_rect/build/lib/linorobot2_rect/test.py -> /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect
+byte-compiling /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/rectangle_motion.py to rectangle_motion.cpython-310.pyc
+byte-compiling /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/test.py to test.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/linorobot2_rect/linorobot2_rect.egg-info to /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rectangle_motion script to /home/pi/linorobot2_ws/install/linorobot2_rect/lib/linorobot2_rect
+writing list of installed files to '/home/pi/linorobot2_ws/build/linorobot2_rect/install.log'

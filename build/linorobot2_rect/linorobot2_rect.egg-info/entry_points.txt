@@ -1,0 +1,3 @@
+[console_scripts]
+rectangle_motion = linorobot2_rect.rectangle_motion:main
+
