@@ -1,8 +1,12 @@
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__init__.py
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/rectangle_motion.py
+/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/finaltest.py
+/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/server.py
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/test.py
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__pycache__/__init__.cpython-310.pyc
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__pycache__/rectangle_motion.cpython-310.pyc
+/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__pycache__/finaltest.cpython-310.pyc
+/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__pycache__/server.cpython-310.pyc
 /home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages/linorobot2_rect/__pycache__/test.cpython-310.pyc
 /home/pi/linorobot2_ws/install/linorobot2_rect/share/ament_index/resource_index/packages/linorobot2_rect
 /home/pi/linorobot2_ws/install/linorobot2_rect/share/linorobot2_rect/package.xml

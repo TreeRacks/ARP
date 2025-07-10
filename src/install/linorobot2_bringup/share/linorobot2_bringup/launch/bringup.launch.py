@@ -110,7 +110,7 @@ def generate_launch_description():
             default_value='false',
             description='Enable rectangle movement node'
         ),
-
+        
         Node(
             condition=IfCondition(LaunchConfiguration("madgwick")),
             package='imu_filter_madgwick',
@@ -134,13 +134,6 @@ def generate_launch_description():
             remappings=[("odometry/filtered", LaunchConfiguration("odom_topic"))]
         ),
 
-        Node(
-            package='linorobot2_control',
-            executable='rectangle_movement',
-            name='rectangle_movement_node',
-            output='screen'
-        ),
-
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(default_robot_launch_path),
             condition=UnlessCondition(LaunchConfiguration("custom_robot")),
@@ -158,5 +151,4 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(custom_robot_launch_path),
             condition=IfCondition(LaunchConfiguration("custom_robot")),
         )
-
     ])

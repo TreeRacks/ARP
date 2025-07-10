@@ -9,7 +9,10 @@ setup.py
 ../../build/linorobot2_rect/linorobot2_rect.egg-info/top_level.txt
 ../../build/linorobot2_rect/linorobot2_rect.egg-info/zip-safe
 linorobot2_rect/__init__.py
+linorobot2_rect/finaltest.py
 linorobot2_rect/rectangle_motion.py
+linorobot2_rect/server.py
+linorobot2_rect/test.py
 resource/linorobot2_rect
 test/test_copyright.py
 test/test_flake8.py

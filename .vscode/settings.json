@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages",
+        "/home/pi/uros_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/pi/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pi/linorobot2_ws/install/linorobot2_rect/lib/python3.10/site-packages",
+        "/home/pi/uros_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/pi/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
